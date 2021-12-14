@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-* 
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto:wght@300;400;500;700;900&display=swap');
+*
 {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -152,4 +152,24 @@ body
   {
     margin-left: 0;
   }
+  footer a
+  {
+    font-size: 40px !important;
+  }
+}
+footer
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+footer a
+{
+  color: white;
+  font-family: "Mrs Saint Delafield";
+  font-size: 50px;
+  text-decoration: none;
 }
