@@ -33,6 +33,7 @@ body
   transition: 0.3s;
   color: black;
   margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 15px;
   text-transform: capitalize;
 }
@@ -100,6 +101,18 @@ body
   visibility: visible;
   transform: translateY(0%);
 }
+#skewModal
+{
+  left: 100%;
+  transform: rotateZ(270deg);
+
+}
+#skewModal.show 
+{
+  visibility: visible;
+  transform: rotateZ(0deg);
+  left: 0;
+}
 
 .modal .modal-content
 {
@@ -141,7 +154,7 @@ body
   color: black;
 }
 
-@media  screen and (max-width: 500px) {
+@media  screen and (max-width: 768px) {
   body
   {
     flex-direction: column;
