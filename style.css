@@ -14,7 +14,9 @@ body
   align-items: center;
   flex-direction: row;
   background: linear-gradient(to right, #fc354c, #0abfbc);
+  -webkit-overflow: hidden;
   overflow: hidden;
+  
 }
 .modal-btn
 {
